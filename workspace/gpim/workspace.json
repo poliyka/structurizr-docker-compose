@@ -1,0 +1,924 @@
+{
+  "id" : 1,
+  "name" : "GPIM 業務流程",
+  "description" : "這是簡介",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-05-25T06:08:45Z",
+  "lastModifiedAgent" : "structurizr-web/2741/diagram",
+  "properties" : {
+    "structurizr.dsl" : "LyoKICogVGhpcyBpcyBhIGNvbWJpbmVkIHZlcnNpb24gb2YgdGhlIGZvbGxvd2luZyB3b3Jrc3BhY2VzOgogKgogKiAtICJCaWcgQmFuayBwbGMgLSBTeXN0ZW0gTGFuZHNjYXBlIiAoaHR0cHM6Ly9zdHJ1Y3R1cml6ci5jb20vc2hhcmUvMjgyMDEvKQogKiAtICJCaWcgQmFuayBwbGMgLSBJbnRlcm5ldCBCYW5raW5nIFN5c3RlbSIgKGh0dHBzOi8vc3RydWN0dXJpenIuY29tL3NoYXJlLzM2MTQxLykKKi8Kd29ya3NwYWNlICJHUElNIOalreWLmea1geeoiyIgIumAmeaYr+ewoeS7iyIgewoKICAgIG1vZGVsIHsKICAgICAgICBjdXN0b21lciA9IHBlcnNvbiAi5a6i5oi2IiAi6LO86LK355Si5ZOB5LmL5a6i5oi2IiAiQ3VzdG9tZXIiCgogICAgICAgIGVudGVycHJpc2UgIkdQSU0g57O757WxIiB7CiAgICAgICAgICAgIGRldmljZU93bmVyMSA9IHBlcnNvbiAi6KOd572u6YWN5oi06ICFMSIgIiIgIkRldmljZSBPd25lciIKICAgICAgICAgICAgZGV2aWNlT3duZXIyID0gcGVyc29uICLoo53nva7phY3miLTogIUyIiAiIiAiRGV2aWNlIE93bmVyIgogICAgICAgICAgICBkZXZpY2VPd25lcjMgPSBwZXJzb24gIuijnee9rumFjeaItOiAhTMiICIiICJEZXZpY2UgT3duZXIiCgogICAgICAgICAgICBHUElNRGF0YVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJHUElNIOizh+aWmeWCs+i8uOezu+e1sSIgIuizh+aWmeWCs+i8uOe2sui3ryIgewogICAgICAgICAgICAgIGlvdFN5c3RlbSA9IGNvbnRhaW5lciAiSW90IiAi6Z+M6auUIiB7CiAgICAgICAgICAgICAgICB0aGluZ3Nib2FyZEdhdGV3YXkgPSBjb21wb25lbnQgInRoaW5nc2JvYXJkLWdhdGV3YXkiICLlpJrpgJroqIrljZTorbDovLjlhaXovYnnmbxNUVRUIiAiSW90IgogICAgICAgICAgICAgICAgbXF0dEJvcmtlciA9IGNvbXBvbmVudCAiTVFUVCBCb3JrZXIiICLmjqXmlLYgVG9waWMg6L2J55m857Wm6KiC6Zax6ICFIiAiSW90IgogICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgRUxLU3lzdGVtID0gY29udGFpbmVyICJFTEsiICLlhajmlofmqqLntKLns7vntbEiIHsKICAgICAgICAgICAgICAgIGZpbGViZWF0ID0gY29tcG9uZW50ICJGaWxlYmVhdCIgIuaUtumbhuizh+aWmeOAgeizh+aWmUZpbHRlciIgIkVMSyIKICAgICAgICAgICAgICAgIGVsYXN0aWNzZWFyY2ggPSBjb21wb25lbnQgIkVsYXN0aWNzZWFyY2giICLmlbjmk5rkuK3oh7pcbnBvcnQ6IDkyMDAsIDkzMDAiICJFTEsiCiAgICAgICAgICAgICAgICBraWJhbmEgPSBjb21wb25lbnQgIktpYmFuYSIgIumWi+eZvOiAheWcluW9ouWMluS7i+mdolxucG9ydDogNTYwMSIgIkVMSyIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgR1BJTVdlYlN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJHUElNIOe2suermSIgIue2suermSIgewoKICAgICAgICAgICAgICBXZWJBcHAgPSBjb250YWluZXIgIlNQQee2suermSIgIumbu+iFpue2sumggSIgIlZ1ZSIgIldlYiBCcm93c2VyIgogICAgICAgICAgICAgIElPU0FwcCA9IGNvbnRhaW5lciAiSU9TIEFwcCIgIuiYi+aenOaJi+apnyIgIkFwcCIgIk1vYmlsZSBBcHAiCiAgICAgICAgICAgICAgQW5kcm9pZEFwcCA9IGNvbnRhaW5lciAiQW5kcm9pZCBBcHAiICLlronljZPmiYvmqZ8iICJBcHAiICJNb2JpbGUgQXBwIgogICAgICAgICAgICAgIGZyb250ZW5kID0gY29udGFpbmVyICLliY3nq68iICJWdWUvUmVhY3QiCgogICAgICAgICAgICAgIGJhY2tlbmQgPSBjb250YWluZXIgIuW+jOerryIgIkRqYW5nbyIKICAgICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJQb3N0Z3Jlc3FsIiAiUk1EQiIgIkRhdGFiYXNlIgoKICAgICAgICAgICAgICBXZWJBcHAgLT4gZnJvbnRlbmQgIkh0dHBzIiAiUHJvdG9jb2wiCiAgICAgICAgICAgICAgSU9TQXBwIC0+IGZyb250ZW5kICJIdHRwcyIgIlByb3RvY29sIgogICAgICAgICAgICAgIEFuZHJvaWRBcHAgLT4gZnJvbnRlbmQgIkh0dHBzIiAiUHJvdG9jb2wiCiAgICAgICAgICAgICAgYmFja2VuZCAtPiBkYXRhYmFzZSAiVHJhbnNhY3Rpb24iICJEYXRhIgogICAgICAgICAgICAgIGRhdGFiYXNlIC0+IGJhY2tlbmQgIlRyYW5zYWN0aW9uIiAiRGF0YSIKICAgICAgICAgICAgICBiYWNrZW5kIC0+IGVsYXN0aWNzZWFyY2ggIlRyYW5zYWN0aW9uIiAiRGF0YSIKICAgICAgICAgICAgICBlbGFzdGljc2VhcmNoIC0+IGJhY2tlbmQgIlRyYW5zYWN0aW9uIiAiRGF0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbGl2ZSA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAiTGl2ZSIgewoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDbG91ZCIKCiAgICAgICAgICAgICAgICByZWdpb24gPSBkZXBsb3ltZW50Tm9kZSAiVVMtRWFzdC0xIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJlZ2lvbiIKCiAgICAgICAgICAgICAgICAgICAgcm91dGU1MyA9IGluZnJhc3RydWN0dXJlTm9kZSAiUm91dGUgNTMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSb3V0ZSA1MyIKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJvdXRlIDUzIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZWxiID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJFbGFzdGljIExvYWQgQmFsYW5jZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkF1dG9tYXRpY2FsbHkgZGlzdHJpYnV0ZXMgaW5jb21pbmcgYXBwbGljYXRpb24gdHJhZmZpYy4iCiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFbGFzdGljIExvYWQgQmFsYW5jaW5nIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkF1dG9zY2FsaW5nIGdyb3VwIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBBdXRvIFNjYWxpbmciCgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBiYWNrZW5kCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICByb3V0ZTUzIC0+IGVsYiAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgZWxiIC0+IHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgfQoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMKICAgICAgICBjdXN0b21lciAtPiBkZXZpY2VPd25lcjEgIuWIhumFjeijnee9riIgIkRldmljZSIKICAgICAgICBjdXN0b21lciAtPiBkZXZpY2VPd25lcjIgIuWIhumFjeijnee9riIgIkRldmljZSIKICAgICAgICBjdXN0b21lciAtPiBkZXZpY2VPd25lcjMgIuWIhumFjeijnee9riIgIkRldmljZSIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29udGFpbmVycwogICAgICAgIGRldmljZU93bmVyMSAtPiBpb3RTeXN0ZW0gIk1RVFQiICJQcm90b2NvbCIKICAgICAgICBkZXZpY2VPd25lcjIgLT4gaW90U3lzdGVtICJIdHRwcyIgIlByb3RvY29sIgogICAgICAgIGRldmljZU93bmVyMyAtPiBpb3RTeXN0ZW0gIk5CLUlPVCIgIlByb3RvY29sIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgdG8vZnJvbSBjb21wb25lbnRzCiAgICAgICAgY3VzdG9tZXIgLT4gV2ViQXBwICLoo53nva4iICJEZXZpY2UiCiAgICAgICAgY3VzdG9tZXIgLT4gSU9TQXBwICLoo53nva4iICJEZXZpY2UiCiAgICAgICAgY3VzdG9tZXIgLT4gQW5kcm9pZEFwcCAi6KOd572uIiAiRGV2aWNlIgogICAgICAgIHRoaW5nc2JvYXJkR2F0ZXdheSAtPiBtcXR0Qm9ya2VyICJQb3J0IDE4ODQiICJQcm90b2NvbCIKICAgICAgICBtcXR0Qm9ya2VyIC0+IGZpbGViZWF0ICJNUVRUOiBwb3J0IDE4ODQiICJFTEsiCiAgICAgICAgZmlsZWJlYXQgLT4gZWxhc3RpY3NlYXJjaCAicG9ydCA5MjAwIiAiRUxLIgogICAgICAgIGVsYXN0aWNzZWFyY2ggLT4ga2liYW5hICJwb3J0IDkzMDAiICJFTEsiCiAgICAgICAgZnJvbnRlbmQgLT4gYmFja2VuZCAiSHR0cHMiICJQcm90b2NvbCIKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIGRlcGxveW1lbnQgR1BJTVdlYlN5c3RlbSAiTGl2ZSIgIkFtYXpvbldlYlNlcnZpY2VzRGVwbG95bWVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHJvdXRlNTMKICAgICAgICAgICAgICAgIGVsYgogICAgICAgICAgICAgICAgd2ViQXBwbGljYXRpb25JbnN0YW5jZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAjIFZpZXcgZm9yIFN5c3RlbWxhbmRzY2FwZQogICAgICAgIHN5c3RlbWxhbmRzY2FwZSAiU3lzdGVtbGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICAjIFZpZXcgZm9yIENvbnRhaW5lcgogICAgICAgIGNvbnRhaW5lciBHUElNRGF0YVN5c3RlbSAiR1BJTURhdGEiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBkZXZpY2VPd25lcjEgZGV2aWNlT3duZXIyIGRldmljZU93bmVyMwogICAgICAgICAgICAgICAgaW90U3lzdGVtCiAgICAgICAgICAgICAgICBFTEtTeXN0ZW0KICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgR1BJTVdlYlN5c3RlbSAiR1BJTVdlYiIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGN1c3RvbWVyCiAgICAgICAgICAgICAgICBiYWNrZW5kCiAgICAgICAgICAgICAgICBmcm9udGVuZAogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgICMgVmlldyBmb3IgQ29tcG9uZW50CiAgICAgICAgY29tcG9uZW50IGlvdFN5c3RlbSAiSU9UIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgdGhpbmdzYm9hcmRHYXRld2F5CiAgICAgICAgICAgICAgICBtcXR0Qm9ya2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IEVMS1N5c3RlbSAiRUxLIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgZmlsZWJlYXQKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRldmljZSBPd25lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNDRiM2Q1CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAyNQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "GPIM 系統"
+    },
+    "people" : [ {
+      "id" : "3",
+      "tags" : "Element,Person,Device Owner",
+      "name" : "裝置配戴者2",
+      "relationships" : [ {
+        "id" : "52",
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "Https",
+        "technology" : "Protocol",
+        "linkedRelationshipId" : "51"
+      }, {
+        "id" : "51",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Https",
+        "technology" : "Protocol"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,Customer",
+      "name" : "客戶",
+      "description" : "購買產品之客戶",
+      "relationships" : [ {
+        "id" : "58",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "16",
+        "description" : "裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "55",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "14",
+        "description" : "裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "47",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "分配裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "57",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "15",
+        "description" : "裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "48",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "分配裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "46",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "分配裝置",
+        "technology" : "Device"
+      }, {
+        "id" : "56",
+        "sourceId" : "1",
+        "destinationId" : "13",
+        "description" : "裝置",
+        "technology" : "Device",
+        "linkedRelationshipId" : "55"
+      } ],
+      "location" : "External"
+    }, {
+      "id" : "4",
+      "tags" : "Element,Person,Device Owner",
+      "name" : "裝置配戴者3",
+      "relationships" : [ {
+        "id" : "53",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "6",
+        "description" : "NB-IOT",
+        "technology" : "Protocol"
+      }, {
+        "id" : "54",
+        "sourceId" : "4",
+        "destinationId" : "5",
+        "description" : "NB-IOT",
+        "technology" : "Protocol",
+        "linkedRelationshipId" : "53"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,Device Owner",
+      "name" : "裝置配戴者1",
+      "relationships" : [ {
+        "id" : "49",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "6",
+        "description" : "MQTT",
+        "technology" : "Protocol"
+      }, {
+        "id" : "50",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "MQTT",
+        "technology" : "Protocol",
+        "linkedRelationshipId" : "49"
+      } ],
+      "location" : "Internal"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "13",
+      "tags" : "Element,Software System",
+      "name" : "GPIM 網站",
+      "description" : "網站",
+      "relationships" : [ {
+        "id" : "28",
+        "sourceId" : "13",
+        "destinationId" : "11",
+        "description" : "Transaction",
+        "technology" : "Data",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "29",
+        "sourceId" : "13",
+        "destinationId" : "9",
+        "description" : "Transaction",
+        "technology" : "Data",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "30",
+        "sourceId" : "13",
+        "destinationId" : "5",
+        "description" : "Transaction",
+        "technology" : "Data",
+        "linkedRelationshipId" : "25"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "19",
+        "tags" : "Element,Container,Database",
+        "name" : "Database",
+        "description" : "Postgresql",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "18",
+          "description" : "Transaction",
+          "technology" : "Data"
+        } ],
+        "technology" : "RMDB"
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "SPA網站",
+        "description" : "電腦網頁",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "14",
+          "destinationId" : "17",
+          "description" : "Https",
+          "technology" : "Protocol"
+        } ],
+        "technology" : "Vue"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container,Mobile App",
+        "name" : "IOS App",
+        "description" : "蘋果手機",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "17",
+          "description" : "Https",
+          "technology" : "Protocol"
+        } ],
+        "technology" : "App"
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "name" : "後端",
+        "description" : "Django",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "11",
+          "description" : "Transaction",
+          "technology" : "Data"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "19",
+          "description" : "Transaction",
+          "technology" : "Data"
+        }, {
+          "id" : "26",
+          "sourceId" : "18",
+          "destinationId" : "9",
+          "description" : "Transaction",
+          "technology" : "Data",
+          "linkedRelationshipId" : "25"
+        }, {
+          "id" : "27",
+          "sourceId" : "18",
+          "destinationId" : "5",
+          "description" : "Transaction",
+          "technology" : "Data",
+          "linkedRelationshipId" : "25"
+        } ]
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,Mobile App",
+        "name" : "Android App",
+        "description" : "安卓手機",
+        "relationships" : [ {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "17",
+          "description" : "Https",
+          "technology" : "Protocol"
+        } ],
+        "technology" : "App"
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "name" : "前端",
+        "description" : "Vue/React",
+        "relationships" : [ {
+          "id" : "66",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "18",
+          "description" : "Https",
+          "technology" : "Protocol"
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "GPIM 資料傳輸系統",
+      "description" : "資料傳輸網路",
+      "relationships" : [ {
+        "id" : "35",
+        "sourceId" : "5",
+        "destinationId" : "18",
+        "description" : "Transaction",
+        "technology" : "Data",
+        "linkedRelationshipId" : "31"
+      }, {
+        "id" : "36",
+        "sourceId" : "5",
+        "destinationId" : "13",
+        "description" : "Transaction",
+        "technology" : "Data",
+        "linkedRelationshipId" : "31"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "ELK",
+        "description" : "全文檢索系統",
+        "relationships" : [ {
+          "id" : "34",
+          "sourceId" : "9",
+          "destinationId" : "13",
+          "description" : "Transaction",
+          "technology" : "Data",
+          "linkedRelationshipId" : "31"
+        }, {
+          "id" : "33",
+          "sourceId" : "9",
+          "destinationId" : "18",
+          "description" : "Transaction",
+          "technology" : "Data",
+          "linkedRelationshipId" : "31"
+        } ],
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Filebeat",
+          "description" : "收集資料、資料Filter",
+          "relationships" : [ {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11",
+            "description" : "port 9200",
+            "technology" : "ELK"
+          } ],
+          "technology" : "ELK",
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "Kibana",
+          "description" : "開發者圖形化介面\nport: 5601",
+          "technology" : "ELK",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "Elasticsearch",
+          "description" : "數據中臺\nport: 9200, 9300",
+          "relationships" : [ {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "18",
+            "description" : "Transaction",
+            "technology" : "Data"
+          }, {
+            "id" : "32",
+            "sourceId" : "11",
+            "destinationId" : "13",
+            "description" : "Transaction",
+            "technology" : "Data",
+            "linkedRelationshipId" : "31"
+          }, {
+            "id" : "65",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "12",
+            "description" : "port 9300",
+            "technology" : "ELK"
+          } ],
+          "technology" : "ELK",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "name" : "Iot",
+        "description" : "韌體",
+        "relationships" : [ {
+          "id" : "62",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "MQTT: port 1884",
+          "technology" : "ELK",
+          "linkedRelationshipId" : "60"
+        }, {
+          "id" : "63",
+          "sourceId" : "6",
+          "destinationId" : "9",
+          "description" : "MQTT: port 1884",
+          "technology" : "ELK",
+          "linkedRelationshipId" : "60"
+        } ],
+        "components" : [ {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "MQTT Borker",
+          "description" : "接收 Topic 轉發給訂閱者",
+          "relationships" : [ {
+            "id" : "61",
+            "sourceId" : "8",
+            "destinationId" : "9",
+            "description" : "MQTT: port 1884",
+            "technology" : "ELK",
+            "linkedRelationshipId" : "60"
+          }, {
+            "id" : "60",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "10",
+            "description" : "MQTT: port 1884",
+            "technology" : "ELK"
+          } ],
+          "technology" : "Iot",
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "thingsboard-gateway",
+          "description" : "多通訊協議輸入轉發MQTT",
+          "relationships" : [ {
+            "id" : "59",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "8",
+            "description" : "Port 1884",
+            "technology" : "Protocol"
+          } ],
+          "technology" : "Iot",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "37",
+      "tags" : "Element,Deployment Node,Amazon Web Services - Cloud",
+      "name" : "Amazon Web Services",
+      "environment" : "Live",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "38",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Region",
+        "name" : "US-East-1",
+        "environment" : "Live",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "41",
+          "tags" : "Element,Deployment Node,Amazon Web Services - Auto Scaling",
+          "name" : "Autoscaling group",
+          "environment" : "Live",
+          "instances" : 1,
+          "children" : [ {
+            "id" : "42",
+            "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+            "name" : "Amazon EC2",
+            "environment" : "Live",
+            "instances" : 1,
+            "containerInstances" : [ {
+              "id" : "43",
+              "tags" : "Container Instance",
+              "environment" : "Live",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "18"
+            } ]
+          } ]
+        } ],
+        "infrastructureNodes" : [ {
+          "id" : "39",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
+          "name" : "Route 53",
+          "description" : "Amazon Web Services - Route 53",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "39",
+            "destinationId" : "40",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Live"
+        }, {
+          "id" : "40",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Elastic Load Balancing",
+          "name" : "Elastic Load Balancer",
+          "description" : "Automatically distributes incoming application traffic.",
+          "relationships" : [ {
+            "id" : "45",
+            "tags" : "Relationship",
+            "sourceId" : "40",
+            "destinationId" : "43",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Live"
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "Systemlandscape",
+      "order" : 2,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3208,
+        "height" : 2220
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1379,
+        "y" : 208
+      }, {
+        "id" : "13",
+        "x" : 2429,
+        "y" : 958
+      }, {
+        "id" : "2",
+        "x" : 1729,
+        "y" : 908
+      }, {
+        "id" : "3",
+        "x" : 1029,
+        "y" : 908
+      }, {
+        "id" : "4",
+        "x" : 329,
+        "y" : 908
+      }, {
+        "id" : "5",
+        "x" : 1704,
+        "y" : 1608
+      } ],
+      "relationships" : [ {
+        "id" : "50"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "54",
+        "vertices" : [ {
+          "x" : 879,
+          "y" : 1308
+        } ]
+      }, {
+        "id" : "56",
+        "vertices" : [ {
+          "x" : 2279,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "48",
+        "vertices" : [ {
+          "x" : 879,
+          "y" : 804
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "13",
+      "key" : "GPIMWeb",
+      "order" : 4,
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 3162,
+        "height" : 3320
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "18" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "17" ],
+        "relationships" : [ "66" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1104,
+        "y" : 208
+      }, {
+        "id" : "14",
+        "x" : 1829,
+        "y" : 908
+      }, {
+        "id" : "15",
+        "x" : 1079,
+        "y" : 908
+      }, {
+        "id" : "5",
+        "x" : 2487,
+        "y" : 2708
+      }, {
+        "id" : "16",
+        "x" : 329,
+        "y" : 908
+      }, {
+        "id" : "17",
+        "x" : 1241,
+        "y" : 1508
+      }, {
+        "id" : "18",
+        "x" : 1570,
+        "y" : 2108
+      }, {
+        "id" : "19",
+        "x" : 1570,
+        "y" : 2708
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "58"
+      } ]
+    }, {
+      "softwareSystemId" : "5",
+      "key" : "GPIMData",
+      "order" : 3,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2216,
+        "height" : 2616
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "2", "3", "4" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "6" ],
+        "relationships" : [ "49", "51", "53" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "9" ],
+        "relationships" : [ "63" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "13",
+        "x" : 883,
+        "y" : 2108
+      }, {
+        "id" : "3",
+        "x" : 908,
+        "y" : 208
+      }, {
+        "id" : "4",
+        "x" : 1608,
+        "y" : 208
+      }, {
+        "id" : "6",
+        "x" : 883,
+        "y" : 908
+      }, {
+        "id" : "9",
+        "x" : 883,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "49"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "ELK",
+      "order" : 6,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1754,
+        "height" : 2620
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "10" ]
+      } ],
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "12",
+        "x" : 329,
+        "y" : 2008
+      }, {
+        "id" : "13",
+        "x" : 1079,
+        "y" : 2008
+      }, {
+        "id" : "6",
+        "x" : 329,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 329,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "32"
+      } ]
+    }, {
+      "key" : "IOT",
+      "order" : 5,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 2054
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "7" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "8" ],
+        "relationships" : [ "59" ]
+      } ],
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "7",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "8",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "9",
+        "x" : 329,
+        "y" : 1529
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "59"
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "softwareSystemId" : "13",
+      "key" : "AmazonWebServicesDeployment",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3025,
+        "height" : 1816
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Live",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "37", "38", "39" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "40" ],
+        "relationships" : [ "44" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "41", "42", "43" ],
+        "relationships" : [ "45" ]
+      } ],
+      "elements" : [ {
+        "id" : "37",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "38",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "39",
+        "x" : 487,
+        "y" : 672
+      }, {
+        "id" : "40",
+        "x" : 1237,
+        "y" : 672
+      }, {
+        "id" : "41",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "42",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "43",
+        "x" : 1987,
+        "y" : 672
+      } ],
+      "relationships" : [ {
+        "id" : "44"
+      }, {
+        "id" : "45"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b"
+        }, {
+          "tag" : "Device Owner",
+          "background" : "#44b3d5"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Failover",
+          "opacity" : 25
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "AmazonWebServicesDeployment"
+    }
+  }
+}
